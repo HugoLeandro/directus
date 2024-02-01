@@ -1,0 +1,14 @@
+{
+	"extends": "@directus/tsconfig/node18-esm",
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"paths": {
+			"@common/*": ["./common/*"],
+			"@query/*": ["./query/*"],
+			"@schema/*": ["./schema/*"],
+			"@utils/*": ["./utils/*"]
+		}
+	},
+	"include": ["**/*.ts"]
+}

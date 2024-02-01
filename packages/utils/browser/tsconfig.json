@@ -1,0 +1,7 @@
+{
+	"extends": "@directus/tsconfig/node18-esm",
+	"compilerOptions": {
+		"lib": ["es2022", "dom"]
+	},
+	"include": ["."]
+}
